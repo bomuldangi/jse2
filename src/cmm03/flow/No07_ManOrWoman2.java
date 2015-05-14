@@ -7,17 +7,15 @@ public class No07_ManOrWoman2 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println(" ÀÔ·Â ");
+		System.out.print(" ì…ë ¥ : ");
 		
 		String ssn = scanner.nextLine();
 		char ch = ssn.charAt(7);
 		
 		switch (ch) {
-		case '1':	System.out.println("³²ÀÚ");	break;
-		case '2':	System.out.println("¿©ÀÚ");	break;
-		case '3':	System.out.println("³²ÀÚ");	break;
-		case '4':	System.out.println("¿©ÀÚ");	break;
-		
+		case '1': case '3':	System.out.println(" ë‚¨ì");	break;
+		case '2': case '4':	System.out.println(" ì—¬ì");	break;
+			
 		default:System.out.println("X");
 			break;
 		}
