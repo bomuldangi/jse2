@@ -11,7 +11,7 @@ public class AverageB {
 	// 이름 저장 기능
 	public void setName(String name){ // 메소드 괄호안에 있는것을 parameter라 부른다.
 		this.name = name;				 		// this : 인스턴스 변수임을 알려주기위해 사용.
-		//( this.parameter = parameter : local 변수를 인스턴스 변수에 넣을수 있는 유일한 방법.
+		//( this.parameter = parameter ) : local 변수를 인스턴스 변수에 넣을수 있는 유일한 방법. 
 	}
 	public static void main(String[] args) {
 	
